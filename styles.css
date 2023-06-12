@@ -1,6 +1,6 @@
 html,
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -8,9 +8,17 @@ body {
   flex-direction: column;
 }
 
+#title {
+  box-sizing: border-box;
+  margin: 5% auto;
+  height: 10%;
+}
+
 .calculator {
   width: 40%;
-  height: auto;
+  height: 50%;
+  margin: 2% auto;
+  border-radius: 10%;
 }
 
 .calculator,
@@ -21,7 +29,8 @@ body {
 .display {
   height: 40px;
   width: 80%;
-  margin: auto;
+  margin: 5% auto;
+  border-radius: 30%;
 }
 
 .numpad {
@@ -29,17 +38,22 @@ body {
   flex-direction: column;
   border: solid;
   width: 80%;
-  margin: auto;
+  margin: 5% auto;
+  padding: 2% 0;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 4% 5%;
 }
 
 .num,
 .operator {
-  gap: 10px;
+  gap: 10px 5px;
   border: solid;
+  width: 15px;
+  text-align: center;
+  padding: 10px;
 }
