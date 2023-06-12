@@ -1,0 +1,45 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator {
+  width: 40%;
+  height: auto;
+}
+
+.calculator,
+.display {
+  border: solid;
+}
+
+.display {
+  height: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.num,
+.operator {
+  gap: 10px;
+  border: solid;
+}
