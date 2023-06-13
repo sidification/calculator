@@ -6,41 +6,46 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Inter';
 }
 
 #title {
   box-sizing: border-box;
-  margin: 5% auto;
-  height: 10%;
+  margin: 3% auto;
+  height: auto;
+  font-size: 48px;
 }
 
 .calculator {
   width: 40%;
-  height: 50%;
+  height: 450px;
   margin: 2% auto;
-  border-radius: 10%;
 }
 
-.calculator,
 .display {
+  box-sizing: border-box;
+  display: flex;
   border: solid;
-}
-
-.display {
-  height: 40px;
-  width: 80%;
-  margin: 5% auto;
-  border-radius: 30%;
-  text-align: right;
+  border-width: 5px;
+  border-bottom: none;
+  height: 80px;
+  width: 340px;
+  margin: 0 auto;
+  justify-content: right;
   line-height: 40px;
+  font-size: 30px;
+  align-items: center;
+  letter-spacing: 0.5px;
+  padding-right: 4px
 }
 
 .numpad {
   display: flex;
   flex-direction: column;
   border: solid;
-  width: 80%;
-  margin: 5% auto;
+  border-width: 5px;
+  width: 330px;
+  margin: 0 auto;
   padding: 2% 0;
 }
 
@@ -54,8 +59,9 @@ body {
 .num,
 .operator {
   gap: 10px 5px;
-  border: solid;
   width: 15px;
+  font-size: 30px;
   text-align: center;
   padding: 10px;
+  cursor: pointer;
 }
