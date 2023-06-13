@@ -4,6 +4,8 @@
 
 This is a simple calculator web application which includes all the basic math operations such as addition, subtraction, multiplication, and division. The project lets you perform these operations by creating variables for the first number, operator, and the second number, which are then displayed. It also has a clear button to start a new calculation.
 
+*Live Demo: https://sidification.github.io/calculator*
+
 ## Features
 
 - Basic Mathematical Operations (Add, Subtract, Multiply, Divide)
